@@ -10,7 +10,8 @@ Create a simple web page that allows users to switch between light and dark them
 
 ### Project Requirements:
 
-- Create a new React application using create-react-app.
+✔️ Create a new React application using create-react-app.
+
 - Implement a ThemeContext using the context API.
 - Create a ThemeProvider component that wraps the entire application.
 - Implement a button that toggles between light and dark themes.

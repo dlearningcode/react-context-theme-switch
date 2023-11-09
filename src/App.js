@@ -1,10 +1,18 @@
 import './App.css';
+import React from 'react';
+import { ThemeProvider } from "./ThemeProvider";
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <ThemeProvider>
+        <div className="App">
+          <header className="App-header">
+            <h1>Context API</h1> 
+          </header>
+        </div>
+      </ThemeProvider>
+    </>
   );
 }
 
