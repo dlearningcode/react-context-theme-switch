@@ -17,6 +17,8 @@ Create a simple web page that allows users to switch between light and dark them
 - Implement a button that toggles between light and dark themes.
 - Update the ThemeProvider component to apply the selected theme to all components in the application.
 
+2023-11-10 I've confirmed I can get the theme to change colors when I have the useState and the theme toggling inside App.js. Now I have to figure out what I'm doing wrong when I pull the theme and theme toggler through context API.
+
 Other stuff below.
 
 # Getting Started with Create React App
