@@ -22,7 +22,7 @@ Create a simple web page that allows users to switch between light and dark them
 
 ### Lessons Learned
 
-The big lesson I learned here is probably an obvious one: The Context Provider only provides state to children. I spent hours trying to figure out why the destructured variables using useContext were `undefined` inside the App.js parent component... the upside is, the exercise gave me the opportunity to break the code down into more, smaller components, which is the whole point of React, so, great exercise.
+The big lesson I learned here is probably an obvious one: The Context Provider only provides context data to children. I spent hours trying to figure out why the destructured variables using useContext were `undefined` inside the App.js parent component... the upside is, the exercise gave me the opportunity to break the code down into more, smaller components, which is the whole point of React, so, great exercise.
 
 Boilerplate CRA stuff below.
 
