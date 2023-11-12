@@ -20,9 +20,11 @@ Create a simple web page that allows users to switch between light and dark them
 
 ✔️ Update the ThemeProvider component to apply the selected theme to all components in the application.
 
+### Lessons Learned
+
 The big lesson I learned here is probably an obvious one: The Context Provider only provides state to children. I spent hours trying to figure out why destructuring the passed values using useContext wouldn't work inside the App.js parent component... the upside is, the exercise guided me to breaking the code down into more, smaller components, which is the whole point of React, so, great exercise.
 
-Boilerplate stuff below.
+Boilerplate CRA stuff below.
 
 # Getting Started with Create React App
 
