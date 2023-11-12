@@ -28,3 +28,38 @@
   color: #61dafb;
 }
 
+.button-light {
+  cursor: pointer;
+  background-color: #60baff;
+  color: #cfdf1a;
+  border: solid 1px #cfdf1a;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: .75rem;
+  font-weight: bold;
+  margin: 10px;
+  transition: ease-in-out 0.2s;
+}
+
+.button-light:hover {
+  background-color: #cfdf1a;
+  color: #60baff;
+}
+
+.button-dark {
+  cursor: pointer;
+  background-color: #12093d;
+  color: white;
+  border: solid 1px white;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: .75rem;
+  font-weight: bold;
+  margin: 10px;
+  transition: ease-in-out 0.2s;
+}
+
+.button-dark:hover {
+  background-color: white;
+  color: #12093d;
+}

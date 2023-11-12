@@ -1,23 +1,15 @@
 import './App.css';
-import React, { useState, useContext } from 'react';
-import ThemeContext from './ThemeContext';
+import React from 'react';
 import { ThemeProvider } from "./ThemeProvider";
+import Header from './Header';
 
-function App() {
-  const [theme, setTheme] = useState("light");
-  // const { theme, toggleTheme } = useContext(ThemeContext);
-  console.log(theme)
-  let themeClass = theme === "light" ? "App-header-light" : "App-header-dark";
+function App() {  
 
   return (
     <>
       <ThemeProvider>
         <div className="App">
-          <header className={themeClass}>
-            <h1>Context API</h1> 
-            <p>Current theme: {theme}</p>
-            <button onClick={() => {setTheme(theme === "light" ? "dark" : "light")}}>Toggle Theme</button>
-          </header>
+          <Header />
         </div>
       </ThemeProvider>
     </>

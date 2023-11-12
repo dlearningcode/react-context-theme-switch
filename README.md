@@ -10,16 +10,19 @@ Create a simple web page that allows users to switch between light and dark them
 
 ### Project Requirements:
 
-✔️ Create a new React application using create-react-app.
+✔️ Create a new React application using create-react-app. (I actually used `npm init react-app .`)
 
-- Implement a ThemeContext using the context API.
-- Create a ThemeProvider component that wraps the entire application.
-- Implement a button that toggles between light and dark themes.
-- Update the ThemeProvider component to apply the selected theme to all components in the application.
+✔️ Implement a ThemeContext using the context API.
 
-2023-11-10 I've confirmed I can get the theme to change colors when I have the useState and the theme toggling inside App.js. Now I have to figure out what I'm doing wrong when I pull the theme and theme toggler through context API.
+✔️ Create a ThemeProvider component that wraps the entire application.
 
-Other stuff below.
+✔️ Implement a button that toggles between light and dark themes.
+
+✔️ Update the ThemeProvider component to apply the selected theme to all components in the application.
+
+The big lesson I learned here is probably an obvious one: The Context Provider only provides state to children. I spent hours trying to figure out why destructuring the passed values using useContext wouldn't work inside the App.js parent component... the upside is, the exercise guided me to breaking the code down into more, smaller components, which is the whole point of React, so, great exercise.
+
+Boilerplate stuff below.
 
 # Getting Started with Create React App
 
