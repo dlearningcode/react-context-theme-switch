@@ -1,9 +1,8 @@
-import React, { useContext } from 'react';
-import { ThemeContext } from "./ThemeProvider";
+import { useTheme } from "./ThemeProvider";
 
 const ThemeButton = () => {
 
-  const { theme, toggleTheme } = useContext(ThemeContext);
+  const { theme, toggleTheme } = useTheme();
 
   let buttonClass = theme === "light" ? "button-light" : "button-dark";
 

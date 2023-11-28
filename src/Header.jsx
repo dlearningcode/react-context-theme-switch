@@ -1,10 +1,9 @@
-import { useContext } from 'react';
-import { ThemeContext } from "./ThemeProvider";
+import { useTheme } from "./ThemeProvider";
 import ThemeButton from "./ThemeButton";
 
 const Header = () => {
 
-  const { theme } = useContext(ThemeContext);
+  const { theme } = useTheme();
 
   let themeClass = theme === "light" ? "App-header-light" : "App-header-dark";
 

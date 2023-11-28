@@ -24,6 +24,9 @@ Create a simple web page that allows users to switch between light and dark them
 
 The big lesson I learned here is probably an obvious one: The Context Provider only provides context data to children. I spent hours trying to figure out why the destructured variables using useContext were `undefined` inside the App.js parent component... the upside is, the exercise gave me the opportunity to break the code down into more, smaller components, which is the whole point of React, so, great exercise.
 
+2023-11-28
+Additional lesson after completing the Context API module in the Advanced React course, which ironically had almost this exact project: best practice is to pass the context to a custom hook, to have access to both the theme string and the toggleTheme function. Also, save a few characters by building the toggleTheme function into the value passed down by the ThemeProvider context.
+
 Boilerplate CRA stuff below.
 
 # Getting Started with Create React App
